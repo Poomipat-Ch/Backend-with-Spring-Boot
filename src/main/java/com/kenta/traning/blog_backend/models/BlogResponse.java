@@ -1,4 +1,4 @@
-package com.kenta.traning.blog_backend.model;
+package com.kenta.traning.blog_backend.models;
 
 import lombok.Data;
 
