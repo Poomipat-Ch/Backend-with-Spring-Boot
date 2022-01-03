@@ -1,13 +1,12 @@
-package com.kenta.traning.blog_backend.route;
+package com.kenta.traning.blog_backend.routes;
 
-import com.kenta.traning.blog_backend.model.BlogResponse;
-import org.springframework.http.HttpStatus;
+import com.kenta.traning.blog_backend.models.BlogResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/blog")
-public class BlogApi {
+public class BlogRoute {
 
     @GetMapping
     public ResponseEntity<BlogResponse> getBlog(){
